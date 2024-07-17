@@ -37,14 +37,14 @@ const Hero = ({ theme }) => {
 							data-aos-delay='600'
 							className='text-5xl lg:text-7xl font-semibold font-serif'
 						>
-							Car Rental
+							Welcome to Prime Car Rentals
 						</h1>
 						<p
+							className='text-xl mb-8'
 							data-aos='fade-up'
 							data-aos-delay='1000'
 						>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-							veritatis explicabo quibusdam quae reprehenderit ab{' '}
+							Reliable, Affordable, and Convenient Car Rental Services
 						</p>
 						<button
 							data-aos='fade-up'
@@ -54,7 +54,7 @@ const Hero = ({ theme }) => {
 							}}
 							className='rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-2 px-6 text-black'
 						>
-							Get Started
+							<a href='contactus'>Get Started</a>
 						</button>
 					</div>
 				</div>

@@ -7,22 +7,22 @@ export const Navlinks = [
 	{
 		id: 1,
 		name: 'HOME',
-		link: '/#',
+		link: '/',
 	},
 	{
 		id: 2,
-		name: 'CARS',
-		link: '/#cars',
+		name: 'INVENTORY',
+		link: '/inventory',
 	},
 	{
-		id: 1,
+		id: 3,
 		name: 'ABOUT',
-		link: '/#about',
+		link: '/about',
 	},
 	{
-		id: 1,
+		id: 4,
 		name: 'BOOKING',
-		link: '/#booking',
+		link: '/booking',
 	},
 ];
 const Navbar = ({ theme, setTheme }) => {
@@ -39,7 +39,9 @@ const Navbar = ({ theme, setTheme }) => {
 			<div className='container py-2 md:py-0'>
 				<div className='flex justify-between items-center'>
 					<div>
-						<span className='text-3xl font-bold font-serif'>Car Rental</span>
+						<span className='text-3xl font-bold font-serif'>
+							Prime Car Rental
+						</span>
 					</div>
 					<nav className='hidden md:block'>
 						<ul className='flex items-center gap-8'>
