@@ -225,14 +225,19 @@ const ContactForm = () => {
 							Thank you, <strong>{formData.name}</strong>!
 						</p>
 						<p>
-							We have received your request to rent a {formData.vehicleType}.
+							We have received your request to rent a{' '}
+							<strong>{formData.vehicleType}</strong>.
 						</p>
-						<p>Our team will contact you at {formData.phone} soon.</p>
 						<p>
-							Your pick-up location is {formData.pickupLocation}, and drop-off
-							location is {formData.dropoffLocation}.
+							Our team will contact you at <strong>{formData.phone}</strong>{' '}
+							soon.
 						</p>
-						<p>{formData.notes ? 'Additional notes: ' + formData.notes : ''}</p>
+						<p>
+							Your pick-up location is{' '}
+							<strong>{formData.pickupLocation}</strong>, and drop-off location
+							is <strong>{formData.dropoffLocation}</strong>.
+						</p>
+						<p>{formData.notes ? 'Additional notes:' + formData.notes : ''}</p>
 					</div>
 				)}
 			</div>
