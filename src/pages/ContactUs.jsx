@@ -237,7 +237,7 @@ const ContactForm = () => {
 							<strong>{formData.pickupLocation}</strong>, and drop-off location
 							is <strong>{formData.dropoffLocation}</strong>.
 						</p>
-						<p>{formData.notes ? 'Additional notes:' + formData.notes : ''}</p>
+						<p>{formData.notes ? 'Additional notes: ' + formData.notes : ''}</p>
 					</div>
 				)}
 			</div>
