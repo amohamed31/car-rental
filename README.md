@@ -38,28 +38,28 @@ To set up the project locally, follow these steps:
 
 To use the Prime Car Rental website, follow these steps:
 
-Open your browser and navigate to http://localhost:3000.
-Browse through the available cars and their details.
-Use the contact form for any inquiries.
-Download the mobile app from the App Store or Google Play Store.
+- Open your browser and navigate to http://localhost:3000.
+- Browse through the available cars and their details.
+- Use the contact form for any inquiries.
+- Download the mobile app from the App Store or Google Play Store.
 
 ## Components
 
 The project includes the following main components:
 
-Hero: Displays the main banner and welcome message.
-About: Provides information about the company.
-Services: Lists the services offered.
-CarList: Shows the available cars for rental.
-Testimonial: Displays customer testimonials.
-AppStoreBanner: Promotes the mobile app.
-Contact: Contains the contact form.
-Footer: Includes company details and social media links.
+- Hero: Displays the main banner and welcome message.
+- About: Provides information about the company.
+- Services: Lists the services offered.
+- CarList: Shows the available cars for rental.
+- Testimonial: Displays customer testimonials.
+- AppStoreBanner: Promotes the mobile app.
+- Contact: Contains the contact form.
+- Footer: Includes company details and social media links.
 
 ## Contact
 
 For any inquiries or feedback, please contact us at:
 
-Email: info@primecarrental.com
-Phone: +252 612345678
-Address: Mogadishu, Somalia
+- Email: info@primecarrental.com
+- Phone: +252 612345678
+- Address: Mogadishu, Somalia
